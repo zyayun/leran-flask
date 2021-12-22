@@ -10,7 +10,6 @@ app_host = '192.168.2.121'
 
 
 @app.route('/')
-
 def welcome():
     '''First web page!!!'''
     return '<html><body>First flask web framework ! Less go !!!!</body></html>'
